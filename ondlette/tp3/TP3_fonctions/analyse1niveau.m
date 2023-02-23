@@ -10,12 +10,9 @@ p=plusm(Xe,m,ondelette);
 if(ondelette=="haarn")
 details=(-1/2*m);
 aprox=p;
-else
-    
+else 
      details=m;
      aprox=p;  
-        
-    
 end
 end
 

@@ -1,15 +1,15 @@
-function res = plusm(xe,resm,ondelette)
+function res = moinsS(ak,dk,ondelette)
 if(ondelette=="haarn")
-res=xe+(resm*1/2);
+res=ak-(-2*dk)*1/2;
 else
     if(ondelette=="trianglelazy")
-       
-        res=xe;
+     
+        res=ak;
     else
         if(ondelette=="trianglen")
-           temp=[0,resm]
+         temp=[0,dk]
         temp=temp(1:1:end-1)
-        res=xe+((resm+temp)/4);
+        res=ak-((dk+temp)/4);
         end
     end
 end
